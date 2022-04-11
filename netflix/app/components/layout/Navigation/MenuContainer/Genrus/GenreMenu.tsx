@@ -1,6 +1,10 @@
 import React, {FC} from 'react';
 
 const GenreMenu:FC = () => {
+
+    const { isLoading, data } = usePopularGenres()
+
+
     return (
         <div>
 
